@@ -1,20 +1,20 @@
 
-# Projet Angular – Formation
+# Angular Project – Training
 
-J’ai réalisé ce projet en suivant le cours "Angular - The Complete Guide" de Maximilian Schwarzmüller sur Udemy.
+I created this project while following the "Angular - The Complete Guide" course by Maximilian Schwarzmüller on Udemy.
 
-J’y ai mis en pratique ce que j’ai appris : création de composants, gestion des `@Input` et `@Output`, utilisation de `ng-content`, et d’autres fonctionnalités d’Angular. C’est avant tout un projet d’entraînement pour progresser et expérimenter avec le framework.
+This is primarily a training project to practice and experiment with the framework.
 
-### Ce que j'ai mis en pratique
+### What I Practiced
 
-Ce projet a été l'occasion de mettre en œuvre plusieurs concepts clés d'Angular, en suivant les bonnes pratiques du framework :
+This project was an opportunity to implement several key Angular concepts, following the framework's best practices:
 
-*   **Architecture et Organisation :** J'ai structuré l'application en modules (`TasksModule`, `SharedModule`) pour bien séparer les fonctionnalités et rendre le code plus facile à maintenir.
-*   **Composants et Communication :** J'ai créé une série de composants qui communiquent entre eux de manière propre, en utilisant `@Input` pour recevoir des données et `@Output` pour émettre des événements.
-*   **Services et Injection de Dépendances :** La logique métier, comme la gestion des tâches, est centralisée dans un service. Cela permet de garder les composants légers et de réutiliser la logique facilement.
-*   **Modélisation des Données :** Pour assurer la cohérence des données, j'ai utilisé des modèles TypeScript (`Task`, `User`).
-*   **Interactivité :** J'ai utilisé le data binding d'Angular pour créer une interface utilisateur dynamique qui réagit instantanément aux actions de l'utilisateur.
-*   **Gestion des Formulaires :** Le formulaire d'ajout de tâches est un exemple de ma pratique avec la gestion des formulaires dans Angular.
+*   **Architecture and Organization:** I structured the application into modules (`TasksModule`, `SharedModule`) to properly separate features and make the code easier to maintain.
+*   **Components and Communication:** I created a series of components that communicate cleanly with each other, using `@Input` to receive data and `@Output` to emit events.
+*   **Services and Dependency Injection:** The business logic, such as task management, is centralized in a service. This keeps the components lightweight and allows for easy logic reuse.
+*   **Data Modeling:** To ensure data consistency, I used TypeScript models (`Task`, `User`).
+*   **Interactivity:** I used Angular's data binding to create a dynamic user interface that reacts instantly to user actions.
+*   **Form Management:** The task creation form is an example of my practice with form handling in Angular.
 
 # FirstAngularApp
 
